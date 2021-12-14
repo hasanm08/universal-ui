@@ -1,0 +1,14 @@
+name: universal_ui
+version: 0.0.8
+description: Temporary fix for dart:ui
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+  flutter: '>=1.20.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+dev_dependencies: 
+  pedantic: ^1.9.2
+  flutter_test: 
+    sdk: flutter
+flutter: null

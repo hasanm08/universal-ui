@@ -1,0 +1,27 @@
+include: package:pedantic/analysis_options.yaml
+
+exclude:
+    - lib/generated_plugin_registrant.dart
+
+linter:
+  rules:
+    always_put_required_named_parameters_first: false
+    prefer_single_quotes: false
+    annotate_overrides: false
+    omit_local_variable_types: false
+    unawaited_futures: false
+    always_return_types: false
+    always_declare_return_types: false
+    prefer_if_null_operators: false
+    curly_braces_in_flow_control_structures: false
+    unnecessary_this: false
+    prefer_final_fields: false
+    lines_longer_than_80_chars: true
+    prefer_conditional_assignment: false
+
+analyzer:
+  errors:
+    undefined_prefixed_name: ignore
+
+  exclude:
+    - lib/generated_plugin_registrant.dart
